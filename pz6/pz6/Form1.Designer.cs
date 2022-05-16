@@ -39,6 +39,8 @@ namespace pz6
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -55,7 +57,7 @@ namespace pz6
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(87, 69);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(191, 134);
+            this.listBox1.Size = new System.Drawing.Size(191, 186);
             this.listBox1.TabIndex = 1;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -139,11 +141,33 @@ namespace pz6
             this.button8.Text = "4";
             this.button8.UseVisualStyleBackColor = false;
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Pink;
+            this.button9.Location = new System.Drawing.Point(147, 206);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(26, 23);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "6";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Pink;
+            this.button10.Location = new System.Drawing.Point(104, 206);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(26, 23);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "5";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(618, 450);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -173,6 +197,8 @@ namespace pz6
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }
 
